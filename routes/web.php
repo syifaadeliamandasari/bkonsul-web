@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\dashboardController;
 
 
 /*
@@ -18,3 +19,4 @@ use App\Http\Controllers\RegisterController;
 
 Route::get('/login', [LoginController::class, 'login'])->name('login');
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
+Route::get('/dashboard', [dashboardController::class, 'dashboard'])->name('dashboard');
