@@ -8,7 +8,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="{{('css/app.css') }}" rel="stylesheet">
     <style>
-        <style>
     body {
         font-family: Arial, sans-serif;
         background-color: #f5f5f5;
@@ -70,14 +69,16 @@
         background-color: #bf251f;
         transform: translateY(-2px); /* Added slight lift effect */
     }
-    .login-container .forgot-password {
+    .login-container .forgot-password,
+    .login-container .register-link {
         margin-top: 15px;
         display: block;
         font-size: 14px;
         color: #666;
         text-decoration: none;
     }
-    .login-container .forgot-password:hover {
+    .login-container .forgot-password:hover,
+    .login-container .register-link:hover {
         color: #D02F25;
     }
 
@@ -99,8 +100,6 @@
             padding: 10px;
         }
     }
-</style>
-
     </style>
 </head>
 <body>
@@ -116,10 +115,10 @@
                 <label for="password"><i class="fas fa-lock"></i> Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="login-btn">Login<a href="{{route('dashboard')}}" class="login-btn"></a></button>
-            <!-- <button type="submit" class="login-btn" >Login</button> -->
+            <button type="submit" class="login-btn">Login</button>
         </form>
         <a href="#" class="forgot-password">Forgot your password?</a>
+        <a href="#" class="register-link">Create an account</a>
     </div>
 </body>
 </html>

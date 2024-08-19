@@ -6,7 +6,7 @@
     <title>Ticketing Dashboard</title>
     <!-- Include Font Awesome CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{('css/app.css') }}" rel="stylesheet">
     <style>
     body {
         font-family: Arial, sans-serif;
