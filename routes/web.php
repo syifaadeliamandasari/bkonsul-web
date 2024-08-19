@@ -20,4 +20,5 @@ use App\Http\Controllers\dashboardController;
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login'])->name('login.submit');
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
-Route::get('/dashboard', [dashboardController::class, 'dashboard'])->name('dashboard');
+Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
+
