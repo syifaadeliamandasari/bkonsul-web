@@ -118,7 +118,7 @@
             <button type="submit" class="login-btn">Login</button>
         </form>
         <a href="#" class="forgot-password">Forgot your password?</a>
-        <a href="#" class="register-link">Create an account</a>
+        <a href="/register" class="register-link">Create an account</a>
     </div>
 </body>
 </html>
