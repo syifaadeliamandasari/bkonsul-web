@@ -166,7 +166,7 @@
         </div>
         <div>
             <a href="#" class="menu-item settings-item"><i class="fas fa-cog"></i> Setting</a>
-            <a href="#" class="menu-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            <a href="/login" class="menu-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
         </div>
     </div>
 
