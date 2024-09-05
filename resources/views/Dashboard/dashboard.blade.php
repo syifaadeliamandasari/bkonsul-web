@@ -151,7 +151,7 @@
 
     .sidebar .settings-item {
         margin-top: auto; /* Push the settings item to the bottom */
-        margin-bottom: 20px; /* Space above the settings item */
+        margin-bottom: 50px; /* Space above the settings item */
     }
     </style>
 </head>
@@ -165,8 +165,8 @@
             <a href="#" class="menu-item"><i class="fas fa-book"></i> Jurnal</a>
         </div>
         <div>
-            <a href="#" class="menu-item settings-item"><i class="fas fa-cog"></i> Setting</a>
-            <a href="/login" class="menu-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            <a href="#" class="menu-item"><i class="fas fa-cog"></i> Setting</a>
+            <a href="/login" class="menu-item settings-item"><i class="fas fa-sign-out-alt"></i> Logout</a>
         </div>
     </div>
 
